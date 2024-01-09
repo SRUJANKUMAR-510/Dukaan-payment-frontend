@@ -1,0 +1,206 @@
+
+.navigationDrawer {
+  background-color: #202641 !important;
+
+}
+
+.DrawerHeader{
+  margin-left: 1vw;
+  margin-top: 2vh;
+  margin-bottom: 1.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.HeaderDetails{
+  color: white;
+  margin-left: 1vw;
+}
+
+.HeaderDetailsName{
+  font-family: 'Open Sans', sans-serif;
+  font-size: large;
+}
+
+.HeaderDetailsLink{
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: underline;
+}
+
+.selectedTab{
+  color: white !important;
+}
+
+/* *{
+  overflow-y: hidden;
+} */
+
+.NotSelectedTab{
+  color: rgba(214, 214, 214, 0.815) !important;
+  font-weight: lighter;
+}
+
+.selectedTabBtn{
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  margin: 0 0.5vw !important;
+  border-radius: 7px !important;
+}
+
+.NotSelectedTabBtn{
+  margin: 0 0.5vw !important;
+}
+
+.availableCredits{
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin: 0 0.5vw !important;
+  border-radius: 7px !important;
+  padding: 1vh 0;
+  width: 94%;
+  position: absolute;
+  bottom: 1.5vh;
+}
+
+.availableCreditsHeader{
+  color: rgb(249, 248, 248) !important;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+}
+
+.availableCreditsValue{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.paymentsHeader{
+  font-size: 19px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  padding-left: 1.5vw;
+}
+
+.help{
+  color: rgb(60, 60, 60) !important;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.Input{
+  background-color: #f2f2f0 !important;
+  padding: 1.5vh;
+  width: 25vw;
+  border-radius: 0 !important;
+  border-top: 0 !important;
+  border-bottom: 0 !important;
+  border-right: 0 !important;
+  border-left: 0 !important;
+}
+
+.Input .ant-input{
+  background-color: #f2f2f0 !important;
+  color: #525252 !important;
+  font-weight: bold !important;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.Input .ant-input-prefix{
+  color: #80807f !important;
+}
+
+.overview{
+  font-size: 21px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+.cardHeader{
+  color : #6d6d6d;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.cardValue{
+  font-size: 26px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+.card{
+
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.InputTable{
+  padding: 1vh;
+  width: 20vw ;
+  border-radius: 0 !important;
+}
+
+.sortBtn{
+  text-transform: capitalize !important;
+  color: #6d6d6d !important;
+  font-family: 'Open Sans', sans-serif !important;
+  margin-right: 1vw !important;
+  border: 1px solid #adadad !important;
+  font-weight: 600 !important;
+}
+
+.Download{
+  color: #6d6d6d !important;
+  font-family: 'Open Sans', sans-serif !important;
+  padding: 5px auto !important;
+  border: 1px solid #adadad !important;
+}
+
+.ColumnHeader{
+  color: #6d6d6d ;
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 16px;
+  text-align: left;
+}
+
+.ColumnHeader .ant-table-cell{
+  background-color: #f2f2f0 !important;
+}
+.columnId {
+  color: #1a80cb !important;
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.columnData {
+  color: #393539 !important;
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 16px;
+}
+
+.Pagination .ant-pagination-item-active{
+  background-color: #006ec4 !important;
+  border-color: #006ec4 !important;
+  
+}
+.Pagination .ant-pagination-item-active a{
+  color: white !important;
+}
+.Pagination a{
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+}
+
+.Pagination .ant-select-selector{
+  display: none !important;
+}
+
+.PageBtn{
+  color: #6d6d6d !important;
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  border: 1px solid #adadad !important;
+}
+/* .css-12i7wg6-MuiPaper-root-MuiDrawer-paper */
